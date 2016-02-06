@@ -50,7 +50,7 @@ class LocalBitcoin:
     """
     Return canceled contacts
     """
-    def getDashboardReleased(self):
+    def getDashboardCanceled(self):
         return self.sendRequest('/api/dashboard/canceled/', '', 'get')
 
     """
