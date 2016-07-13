@@ -161,7 +161,7 @@ class LocalBitcoin:
     
     """
     def postFeedbackToUser(self, username, feedback, message = None):
-        post = {feedback: feedback}
+        post = {'feedback': feedback}
         if message != None:
           post = {'feedback': feedback, 'msg': message}
         
